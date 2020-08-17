@@ -1,6 +1,6 @@
 # list comprehension
 
-what they are
+what they are:
 List comprehensions are used for creating new lists from other iterables. 
 
 when you would use them:
