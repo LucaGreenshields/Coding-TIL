@@ -1,18 +1,16 @@
-# Dictionary key
+# Dictionary keys
 
 what they are:
-Python dictionary method keys() returns a list of all the available keys in the dictionary.
+Python dictionary method keys() returns an iterable of all the keys in the dictionary.
 
 when you would use them:
-You would use them when trying to see all the available keys in a dictionary
-
-* iterating directly over the dictionary saves some memory.
-* if you need a copy of the keys, such as when you'll change the dict in the loop.
+When you want to read each of the keys in the dictionary.
 
 how to code them
 
 ```python
-dict = {'Name': 'Zara', 'Age': 7}
-print "Value : %s" %  dict.keys()
-Value : ['Age', 'Name']
+dict = {'England': 'Boris', 'Scotland': 'Nicola'}
+print("Countries are")
+for key in dict.keys
+	print(key)
 ```

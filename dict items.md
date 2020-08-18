@@ -1,19 +1,15 @@
 # Dictionary items
 
 what they are:
-The items() method returns a view object.
+Items returns an iterable accessing a tuple of the key value pairs in the dictionary.
 
 when you would use them:
-When you want the key-value pairs of the dictionary, as tuples in a list.
-
-
-* advantage 1
-* advantage 2
+When you want act on each of the key-value pairs in the dictionary.
 
 how to code them:
 
 ```python
-dict = {'Name': 'Zara', 'Age': 7}
-print "Value : %s" %  dict.items()
-[('Age', 7), ('Name', 'Zara')]
+dict = {'England': 'Boris', 'Scotland': 'Nicola'}
+for data_tuple in dict.items
+	print( f"{data_tuple[0]} PM {data_tuple[1]}")
 ```
