@@ -9,6 +9,8 @@ You would use them instead of an if-elif statments
 * efficient
 * robust
 
+you can also can put functions in a list when you want to run them one after another
+
 how to code them
 
 ```python
